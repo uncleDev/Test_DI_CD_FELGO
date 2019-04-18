@@ -6,19 +6,19 @@ CONFIG += felgo
 #CONFIG += felgo-live
 
 # configure the identifier and version information
-PRODUCT_IDENTIFIER = com.yourcompany.wizardEVAP.TestCICDFELGO
-PRODUCT_VERSION_NAME = 1.0.0
+PRODUCT_IDENTIFIER = com.myTestCompany.wizardEVAP.TestCICDFELGO
+PRODUCT_VERSION_NAME = 1.0.1
 PRODUCT_VERSION_CODE = 1
 
 qmlFolder.source = qml
-DEPLOYMENTFOLDERS += qmlFolder # comment for publishing
+#DEPLOYMENTFOLDERS += qmlFolder # comment for publishing
 
 assetsFolder.source = assets
 DEPLOYMENTFOLDERS += assetsFolder
 
 # Add more folders to ship with the application here
 
-RESOURCES += #    resources.qrc # uncomment for publishing
+RESOURCES +=    resources.qrc # uncomment for publishing
 
 # NOTE: for PUBLISHING, perform the following steps:
 # 1. comment the DEPLOYMENTFOLDERS += qmlFolder line above, to avoid shipping your qml files with the application (instead they get compiled to the app binary)
