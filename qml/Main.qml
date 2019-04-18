@@ -7,9 +7,12 @@ App {
         Page {
             title: qsTr("TEST CI CD")
 
-            Image {
-                source: "../assets/felgo-logo.png"
+            Rectangle{
                 anchors.centerIn: parent
+                height: 50
+                width: 50
+                color:"red"
+                rotation: 45
             }
         }
 
