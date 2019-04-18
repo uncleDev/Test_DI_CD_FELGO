@@ -1,8 +1,8 @@
 {
     "title": "Test_CI_CD_FELGO",
-    "identifier": "com.myTestCompany.wizardEVAP.TestCICDFELGO",
+    "identifier": "com.yourcompany.wizardEVAP.TestCICDFELGO",
     "orientation": "auto",
     "versioncode": 1,
-    "versionname": "1.0.1",
+    "versionname": "1.0.0",
     "stage": "test"
 }
